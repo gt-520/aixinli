@@ -98,7 +98,7 @@ const frontendRoutes = [
 ]
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory('/aixinli/'),
   routes: [...backendRoutes, ...frontendRoutes]
 })
 
